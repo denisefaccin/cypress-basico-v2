@@ -1,8 +1,6 @@
 # Testes automatizados com Cypress - Básico
 ## O que você vai aprender
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
-
 - Como configurar um projeto Cypress do zero
 - Como visitar páginas locais e remotas
 - Como lidar com os elementos mais comuns encontrados em aplicações web

@@ -133,15 +133,6 @@ describe('Central de Atendimento ao Cliente TAT', function() {
         
     });
 
-    it('verifica que a política de privacidade abre em outra aba sem a necessidade de um clique', ()=>{
-        cy.fixture('example.json').as('exampleFile');
-        cy.get('#file-upload')
-          .selectFile('@exampleFile')
-          .should(function($input) {
-            expect($input[0].files[0].name).to.equal('example.json')
-          })
-        
-    });
 
     it('verifica que a política de privacidade abre em outra aba sem a necessidade de um clique', ()=>{
         cy.get('#privacy a').should('have.attr', 'target', '_blank')        
